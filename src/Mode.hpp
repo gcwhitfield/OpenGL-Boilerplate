@@ -4,10 +4,10 @@
 #include <memory>
 
 // The Mode is convinient way to bundle instructions for drawing to the window and handling user 
-// input all together into one class. Mode::update, Mode::process_input, and Mode::draw 
+// input all together into one class. Mode::update, Mode::handle_key, and Mode::draw 
 // are all called from within main.cpp's render loop. 
 
-// Copied from https://github.com/15-466/15-466-f21-base0/blob/main/Mode.hpp
+// Heavily derived from https://github.com/15-466/15-466-f21-base0/blob/main/Mode.hpp
 struct Mode : std::enable_shared_from_this<Mode> {
     Mode() { };
     virtual ~Mode() {};
@@ -29,5 +29,8 @@ struct Mode : std::enable_shared_from_this<Mode> {
     virtual void draw(glm::uvec2 const &drawable_size);
 
     static std::shared_ptr<Mode> current;
-    static void set_current(std::shared_ptr<Mode> const &);
+    // Sets the current mode to the new mode. This will typically get called whenever the
+    // application needs to switch between screens. For example, a pause screen or a menu can 
+    // be implemented by changing the mode
+    static void set_current(std::shared_ptr<Mode> const &new_mode);
 };
