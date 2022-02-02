@@ -1072,10 +1072,6 @@ detail/setup.hpp
 detail/func_vector_relational.inl
 ../libs/glm/include/detail/func_vector_relational.inl
 
-/Users/george/Desktop/Programming/OpenGL-Learning/projects/OpenGl Boilerplate/src/ColorTextureProgram.cpp
-ColorTextureProgram.hpp
-/Users/george/Desktop/Programming/OpenGL-Learning/projects/OpenGl Boilerplate/src/ColorTextureProgram.hpp
-
 /Users/george/Desktop/Programming/OpenGL-Learning/projects/OpenGl Boilerplate/src/ColorTextureProgram.hpp
 glad/glad.h
 -
@@ -1084,5 +1080,31 @@ GLFW/glfw3.h
 glm.hpp
 -
 iostream
+-
+
+/Users/george/Desktop/Programming/OpenGL-Learning/projects/OpenGl Boilerplate/src/Mode.hpp
+glad/glad.h
+-
+GLFW/glfw3.h
+-
+glm.hpp
+-
+memory
+-
+
+/Users/george/Desktop/Programming/OpenGL-Learning/projects/OpenGl Boilerplate/src/PlayMode.cpp
+PlayMode.hpp
+/Users/george/Desktop/Programming/OpenGL-Learning/projects/OpenGl Boilerplate/src/PlayMode.hpp
+
+/Users/george/Desktop/Programming/OpenGL-Learning/projects/OpenGl Boilerplate/src/PlayMode.hpp
+Mode.hpp
+/Users/george/Desktop/Programming/OpenGL-Learning/projects/OpenGl Boilerplate/src/Mode.hpp
+ColorTextureProgram.hpp
+/Users/george/Desktop/Programming/OpenGL-Learning/projects/OpenGl Boilerplate/src/ColorTextureProgram.hpp
+glm.hpp
+-
+iostream
+-
+vector
 -
 
