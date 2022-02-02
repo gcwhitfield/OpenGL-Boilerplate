@@ -1,4 +1,4 @@
-# Install script for directory: /Users/george/Desktop/Programming/OpenGL-Learning/projects/1-create-window
+# Install script for directory: /Users/george/Desktop/Programming/OpenGL-Learning/projects/OpenGl Boilerplate
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/george/Desktop/Programming/OpenGL-Learning/projects/1-create-window/build/libs/glfw/cmake_install.cmake")
+  include("/Users/george/Desktop/Programming/OpenGL-Learning/projects/OpenGl Boilerplate/build/libs/glfw/cmake_install.cmake")
 
 endif()
 
@@ -51,5 +51,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/george/Desktop/Programming/OpenGL-Learning/projects/1-create-window/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/george/Desktop/Programming/OpenGL-Learning/projects/OpenGl Boilerplate/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

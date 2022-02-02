@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/myproject.dir/libs/glad/src/glad.c.o"
+  "CMakeFiles/myproject.dir/src/ColorTextureProgram.cpp.o"
   "CMakeFiles/myproject.dir/src/Mode.cpp.o"
+  "CMakeFiles/myproject.dir/src/PlayMode.cpp.o"
   "CMakeFiles/myproject.dir/src/main.cpp.o"
   "myproject"
   "myproject.pdb"

@@ -5,13 +5,13 @@
 # compile CXX with /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
 C_DEFINES = 
 
-C_INCLUDES = -I/Users/george/Desktop/Programming/OpenGL-Learning/projects/1-create-window/./libs/glfw/include -I/Users/george/Desktop/Programming/OpenGL-Learning/projects/1-create-window/./libs/glad/include -I/Users/george/Desktop/Programming/OpenGL-Learning/projects/1-create-window/./libs/glm/include -I/Users/george/Desktop/Programming/OpenGL-Learning/projects/1-create-window/libs/glfw/include
+C_INCLUDES = -I"/Users/george/Desktop/Programming/OpenGL-Learning/projects/OpenGl Boilerplate/./libs/glfw/include" -I"/Users/george/Desktop/Programming/OpenGL-Learning/projects/OpenGl Boilerplate/./libs/glad/include" -I"/Users/george/Desktop/Programming/OpenGL-Learning/projects/OpenGl Boilerplate/./libs/glm/include" -I"/Users/george/Desktop/Programming/OpenGL-Learning/projects/OpenGl Boilerplate/libs/glfw/include"
 
 C_FLAGS =  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/george/Desktop/Programming/OpenGL-Learning/projects/1-create-window/./libs/glfw/include -I/Users/george/Desktop/Programming/OpenGL-Learning/projects/1-create-window/./libs/glad/include -I/Users/george/Desktop/Programming/OpenGL-Learning/projects/1-create-window/./libs/glm/include -I/Users/george/Desktop/Programming/OpenGL-Learning/projects/1-create-window/libs/glfw/include
+CXX_INCLUDES = -I"/Users/george/Desktop/Programming/OpenGL-Learning/projects/OpenGl Boilerplate/./libs/glfw/include" -I"/Users/george/Desktop/Programming/OpenGL-Learning/projects/OpenGl Boilerplate/./libs/glad/include" -I"/Users/george/Desktop/Programming/OpenGL-Learning/projects/OpenGl Boilerplate/./libs/glm/include" -I"/Users/george/Desktop/Programming/OpenGL-Learning/projects/OpenGl Boilerplate/libs/glfw/include"
 
 CXX_FLAGS =  -Wall -Wextra -Werror -Wpedantic -std=c++11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.14 -std=gnu++11
 

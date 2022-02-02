@@ -1,4 +1,4 @@
-# Install script for directory: /Users/george/Desktop/Programming/OpenGL-Learning/projects/1-create-window/libs/glfw/tests
+# Install script for directory: /Users/george/Desktop/Programming/OpenGL-Learning/projects/OpenGl Boilerplate/libs/glfw/tests
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

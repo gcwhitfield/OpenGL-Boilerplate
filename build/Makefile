@@ -67,10 +67,10 @@ RM = /usr/local/Cellar/cmake/3.18.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/george/Desktop/Programming/OpenGL-Learning/projects/1-create-window
+CMAKE_SOURCE_DIR = "/Users/george/Desktop/Programming/OpenGL-Learning/projects/OpenGl Boilerplate"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/george/Desktop/Programming/OpenGL-Learning/projects/1-create-window/build
+CMAKE_BINARY_DIR = "/Users/george/Desktop/Programming/OpenGL-Learning/projects/OpenGl Boilerplate/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -145,9 +145,9 @@ install/local/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/george/Desktop/Programming/OpenGL-Learning/projects/1-create-window/build/CMakeFiles /Users/george/Desktop/Programming/OpenGL-Learning/projects/1-create-window/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/george/Desktop/Programming/OpenGL-Learning/projects/OpenGl Boilerplate/build/CMakeFiles" "/Users/george/Desktop/Programming/OpenGL-Learning/projects/OpenGl Boilerplate/build//CMakeFiles/progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/george/Desktop/Programming/OpenGL-Learning/projects/1-create-window/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/george/Desktop/Programming/OpenGL-Learning/projects/OpenGl Boilerplate/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -631,6 +631,33 @@ libs/glad/src/glad.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/myproject.dir/build.make CMakeFiles/myproject.dir/libs/glad/src/glad.c.s
 .PHONY : libs/glad/src/glad.c.s
 
+src/ColorTextureProgram.o: src/ColorTextureProgram.cpp.o
+
+.PHONY : src/ColorTextureProgram.o
+
+# target to build an object file
+src/ColorTextureProgram.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/myproject.dir/build.make CMakeFiles/myproject.dir/src/ColorTextureProgram.cpp.o
+.PHONY : src/ColorTextureProgram.cpp.o
+
+src/ColorTextureProgram.i: src/ColorTextureProgram.cpp.i
+
+.PHONY : src/ColorTextureProgram.i
+
+# target to preprocess a source file
+src/ColorTextureProgram.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/myproject.dir/build.make CMakeFiles/myproject.dir/src/ColorTextureProgram.cpp.i
+.PHONY : src/ColorTextureProgram.cpp.i
+
+src/ColorTextureProgram.s: src/ColorTextureProgram.cpp.s
+
+.PHONY : src/ColorTextureProgram.s
+
+# target to generate assembly for a file
+src/ColorTextureProgram.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/myproject.dir/build.make CMakeFiles/myproject.dir/src/ColorTextureProgram.cpp.s
+.PHONY : src/ColorTextureProgram.cpp.s
+
 src/Mode.o: src/Mode.cpp.o
 
 .PHONY : src/Mode.o
@@ -657,6 +684,33 @@ src/Mode.s: src/Mode.cpp.s
 src/Mode.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/myproject.dir/build.make CMakeFiles/myproject.dir/src/Mode.cpp.s
 .PHONY : src/Mode.cpp.s
+
+src/PlayMode.o: src/PlayMode.cpp.o
+
+.PHONY : src/PlayMode.o
+
+# target to build an object file
+src/PlayMode.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/myproject.dir/build.make CMakeFiles/myproject.dir/src/PlayMode.cpp.o
+.PHONY : src/PlayMode.cpp.o
+
+src/PlayMode.i: src/PlayMode.cpp.i
+
+.PHONY : src/PlayMode.i
+
+# target to preprocess a source file
+src/PlayMode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/myproject.dir/build.make CMakeFiles/myproject.dir/src/PlayMode.cpp.i
+.PHONY : src/PlayMode.cpp.i
+
+src/PlayMode.s: src/PlayMode.cpp.s
+
+.PHONY : src/PlayMode.s
+
+# target to generate assembly for a file
+src/PlayMode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/myproject.dir/build.make CMakeFiles/myproject.dir/src/PlayMode.cpp.s
+.PHONY : src/PlayMode.cpp.s
 
 src/main.o: src/main.cpp.o
 
@@ -733,9 +787,15 @@ help:
 	@echo "... libs/glad/src/glad.o"
 	@echo "... libs/glad/src/glad.i"
 	@echo "... libs/glad/src/glad.s"
+	@echo "... src/ColorTextureProgram.o"
+	@echo "... src/ColorTextureProgram.i"
+	@echo "... src/ColorTextureProgram.s"
 	@echo "... src/Mode.o"
 	@echo "... src/Mode.i"
 	@echo "... src/Mode.s"
+	@echo "... src/PlayMode.o"
+	@echo "... src/PlayMode.i"
+	@echo "... src/PlayMode.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

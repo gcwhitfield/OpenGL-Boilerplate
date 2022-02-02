@@ -5,7 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/george/Desktop/Programming/OpenGL-Learning/projects/1-create-window/libs/glad/src/glad.c" "/Users/george/Desktop/Programming/OpenGL-Learning/projects/1-create-window/build/CMakeFiles/myproject.dir/libs/glad/src/glad.c.o"
+  "/Users/george/Desktop/Programming/OpenGL-Learning/projects/OpenGl Boilerplate/libs/glad/src/glad.c" "/Users/george/Desktop/Programming/OpenGL-Learning/projects/OpenGl Boilerplate/build/CMakeFiles/myproject.dir/libs/glad/src/glad.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 
@@ -17,8 +17,10 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "../libs/glfw/include"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/george/Desktop/Programming/OpenGL-Learning/projects/1-create-window/src/Mode.cpp" "/Users/george/Desktop/Programming/OpenGL-Learning/projects/1-create-window/build/CMakeFiles/myproject.dir/src/Mode.cpp.o"
-  "/Users/george/Desktop/Programming/OpenGL-Learning/projects/1-create-window/src/main.cpp" "/Users/george/Desktop/Programming/OpenGL-Learning/projects/1-create-window/build/CMakeFiles/myproject.dir/src/main.cpp.o"
+  "/Users/george/Desktop/Programming/OpenGL-Learning/projects/OpenGl Boilerplate/src/ColorTextureProgram.cpp" "/Users/george/Desktop/Programming/OpenGL-Learning/projects/OpenGl Boilerplate/build/CMakeFiles/myproject.dir/src/ColorTextureProgram.cpp.o"
+  "/Users/george/Desktop/Programming/OpenGL-Learning/projects/OpenGl Boilerplate/src/Mode.cpp" "/Users/george/Desktop/Programming/OpenGL-Learning/projects/OpenGl Boilerplate/build/CMakeFiles/myproject.dir/src/Mode.cpp.o"
+  "/Users/george/Desktop/Programming/OpenGL-Learning/projects/OpenGl Boilerplate/src/PlayMode.cpp" "/Users/george/Desktop/Programming/OpenGL-Learning/projects/OpenGl Boilerplate/build/CMakeFiles/myproject.dir/src/PlayMode.cpp.o"
+  "/Users/george/Desktop/Programming/OpenGL-Learning/projects/OpenGl Boilerplate/src/main.cpp" "/Users/george/Desktop/Programming/OpenGL-Learning/projects/OpenGl Boilerplate/build/CMakeFiles/myproject.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
@@ -32,7 +34,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/Users/george/Desktop/Programming/OpenGL-Learning/projects/1-create-window/build/libs/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake"
+  "/Users/george/Desktop/Programming/OpenGL-Learning/projects/OpenGl Boilerplate/build/libs/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.
